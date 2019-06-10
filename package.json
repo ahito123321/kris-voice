@@ -1,0 +1,24 @@
+{
+  "name": "express-brain-js-server",
+  "version": "1.0.0",
+  "description": "Neural Network Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Vladimir",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.4",
+    "brain.js": "^1.6.1",
+    "cors": "^2.8.5",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "jsforce": "^1.9.1",
+    "multiparty": "^4.2.1",
+    "nodemon": "^1.18.10"
+  },
+  "devDependencies": {
+    "body-parser": "^1.18.3"
+  }
+}
