@@ -1,5 +1,5 @@
 module.exports = {
-    appPort: 5000,
+    appPort: process.env.PORT || 5000,
     loginUrl : 'https://login.salesforce.com',
     userName: 'vlyaschinsky.voice@react.com',
     password: 'HoollywooD98'
