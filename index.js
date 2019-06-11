@@ -5,10 +5,8 @@ const config = require('./config/index');
 config.express(app);
 config.routes(app);
 
-const { appPort } = config.app;
-
-app.listen(appPort, () => {
-    console.log(`Listening on port ${appPort}`);
+app.listen(config.app.appPort, () => {
+    console.log(`Listening on port ${config.app.appPort}`);
 });
 
 

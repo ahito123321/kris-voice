@@ -1,0 +1,13 @@
+body {
+    padding: 50px;
+}
+
+.custom-container {
+    display: flex;
+    justify-content: center
+}
+
+.custom-form {
+    min-width: 400px;
+    max-width: 500px;
+}
